@@ -6,7 +6,7 @@ import {
   updateQty,
   removeFromCart,
   clearCart,
-} from "../utils/cart";
+} from "../utils/Cart";
 
 export default function Cart() {
   const navigate = useNavigate();
