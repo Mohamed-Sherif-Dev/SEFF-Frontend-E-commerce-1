@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { addToCart } from "../utils/cart";
+import { addToCart } from "../utils/Cart";
 import RelatedRow from "../components/RelatedRoW";
 
 export default function ProductDetails() {
